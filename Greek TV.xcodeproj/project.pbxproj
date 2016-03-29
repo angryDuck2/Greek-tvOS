@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D97FFD971CAB439F00407FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFD961CAB439F00407FD2 /* main.m */; };
+		D97FFD9A1CAB439F00407FD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFD991CAB439F00407FD2 /* AppDelegate.m */; };
+		D97FFD9D1CAB439F00407FD2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFD9C1CAB439F00407FD2 /* FirstViewController.m */; };
+		D97FFDA01CAB439F00407FD2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFD9F1CAB439F00407FD2 /* SecondViewController.m */; };
+		D97FFDA31CAB439F00407FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97FFDA11CAB439F00407FD2 /* Main.storyboard */; };
+		D97FFDA51CAB439F00407FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97FFDA41CAB439F00407FD2 /* Assets.xcassets */; };
+		D97FFDB01CAB439F00407FD2 /* Greek_TVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFDAF1CAB439F00407FD2 /* Greek_TVTests.m */; };
+		D97FFDBB1CAB439F00407FD2 /* Greek_TVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFDBA1CAB439F00407FD2 /* Greek_TVUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D97FFDAC1CAB439F00407FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97FFD8A1CAB439F00407FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97FFD911CAB439F00407FD2;
+			remoteInfo = "Greek TV";
+		};
+		D97FFDB71CAB439F00407FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97FFD8A1CAB439F00407FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97FFD911CAB439F00407FD2;
+			remoteInfo = "Greek TV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D97FFD921CAB439F00407FD2 /* Greek TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greek TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97FFD961CAB439F00407FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D97FFD981CAB439F00407FD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97FFD991CAB439F00407FD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D97FFD9B1CAB439F00407FD2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D97FFD9C1CAB439F00407FD2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D97FFD9E1CAB439F00407FD2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D97FFD9F1CAB439F00407FD2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D97FFDA21CAB439F00407FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D97FFDA41CAB439F00407FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97FFDA61CAB439F00407FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97FFDAB1CAB439F00407FD2 /* Greek TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Greek TVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97FFDAF1CAB439F00407FD2 /* Greek_TVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greek_TVTests.m; sourceTree = "<group>"; };
+		D97FFDB11CAB439F00407FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97FFDB61CAB439F00407FD2 /* Greek TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Greek TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97FFDBA1CAB439F00407FD2 /* Greek_TVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greek_TVUITests.m; sourceTree = "<group>"; };
+		D97FFDBC1CAB439F00407FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D97FFD8F1CAB439F00407FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97FFDA81CAB439F00407FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97FFDB31CAB439F00407FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97FFD891CAB439F00407FD2 = {
+			isa = PBXGroup;
+			children = (
+				D97FFD941CAB439F00407FD2 /* Greek TV */,
+				D97FFDAE1CAB439F00407FD2 /* Greek TVTests */,
+				D97FFDB91CAB439F00407FD2 /* Greek TVUITests */,
+				D97FFD931CAB439F00407FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D97FFD931CAB439F00407FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97FFD921CAB439F00407FD2 /* Greek TV.app */,
+				D97FFDAB1CAB439F00407FD2 /* Greek TVTests.xctest */,
+				D97FFDB61CAB439F00407FD2 /* Greek TVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D97FFD941CAB439F00407FD2 /* Greek TV */ = {
+			isa = PBXGroup;
+			children = (
+				D97FFD981CAB439F00407FD2 /* AppDelegate.h */,
+				D97FFD991CAB439F00407FD2 /* AppDelegate.m */,
+				D97FFD9B1CAB439F00407FD2 /* FirstViewController.h */,
+				D97FFD9C1CAB439F00407FD2 /* FirstViewController.m */,
+				D97FFD9E1CAB439F00407FD2 /* SecondViewController.h */,
+				D97FFD9F1CAB439F00407FD2 /* SecondViewController.m */,
+				D97FFDA11CAB439F00407FD2 /* Main.storyboard */,
+				D97FFDA41CAB439F00407FD2 /* Assets.xcassets */,
+				D97FFDA61CAB439F00407FD2 /* Info.plist */,
+				D97FFD951CAB439F00407FD2 /* Supporting Files */,
+			);
+			path = "Greek TV";
+			sourceTree = "<group>";
+		};
+		D97FFD951CAB439F00407FD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97FFD961CAB439F00407FD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D97FFDAE1CAB439F00407FD2 /* Greek TVTests */ = {
+			isa = PBXGroup;
+			children = (
+				D97FFDAF1CAB439F00407FD2 /* Greek_TVTests.m */,
+				D97FFDB11CAB439F00407FD2 /* Info.plist */,
+			);
+			path = "Greek TVTests";
+			sourceTree = "<group>";
+		};
+		D97FFDB91CAB439F00407FD2 /* Greek TVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D97FFDBA1CAB439F00407FD2 /* Greek_TVUITests.m */,
+				D97FFDBC1CAB439F00407FD2 /* Info.plist */,
+			);
+			path = "Greek TVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97FFD911CAB439F00407FD2 /* Greek TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97FFDBF1CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TV" */;
+			buildPhases = (
+				D97FFD8E1CAB439F00407FD2 /* Sources */,
+				D97FFD8F1CAB439F00407FD2 /* Frameworks */,
+				D97FFD901CAB439F00407FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Greek TV";
+			productName = "Greek TV";
+			productReference = D97FFD921CAB439F00407FD2 /* Greek TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97FFDAA1CAB439F00407FD2 /* Greek TVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97FFDC21CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TVTests" */;
+			buildPhases = (
+				D97FFDA71CAB439F00407FD2 /* Sources */,
+				D97FFDA81CAB439F00407FD2 /* Frameworks */,
+				D97FFDA91CAB439F00407FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97FFDAD1CAB439F00407FD2 /* PBXTargetDependency */,
+			);
+			name = "Greek TVTests";
+			productName = "Greek TVTests";
+			productReference = D97FFDAB1CAB439F00407FD2 /* Greek TVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D97FFDB51CAB439F00407FD2 /* Greek TVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97FFDC51CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TVUITests" */;
+			buildPhases = (
+				D97FFDB21CAB439F00407FD2 /* Sources */,
+				D97FFDB31CAB439F00407FD2 /* Frameworks */,
+				D97FFDB41CAB439F00407FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97FFDB81CAB439F00407FD2 /* PBXTargetDependency */,
+			);
+			name = "Greek TVUITests";
+			productName = "Greek TVUITests";
+			productReference = D97FFDB61CAB439F00407FD2 /* Greek TVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97FFD8A1CAB439F00407FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aggelos Papageorgiou";
+				TargetAttributes = {
+					D97FFD911CAB439F00407FD2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LSMKHW6LLV;
+					};
+					D97FFDAA1CAB439F00407FD2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LSMKHW6LLV;
+						TestTargetID = D97FFD911CAB439F00407FD2;
+					};
+					D97FFDB51CAB439F00407FD2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LSMKHW6LLV;
+						TestTargetID = D97FFD911CAB439F00407FD2;
+					};
+				};
+			};
+			buildConfigurationList = D97FFD8D1CAB439F00407FD2 /* Build configuration list for PBXProject "Greek TV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97FFD891CAB439F00407FD2;
+			productRefGroup = D97FFD931CAB439F00407FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97FFD911CAB439F00407FD2 /* Greek TV */,
+				D97FFDAA1CAB439F00407FD2 /* Greek TVTests */,
+				D97FFDB51CAB439F00407FD2 /* Greek TVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97FFD901CAB439F00407FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97FFDA51CAB439F00407FD2 /* Assets.xcassets in Resources */,
+				D97FFDA31CAB439F00407FD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97FFDA91CAB439F00407FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97FFDB41CAB439F00407FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97FFD8E1CAB439F00407FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97FFDA01CAB439F00407FD2 /* SecondViewController.m in Sources */,
+				D97FFD9A1CAB439F00407FD2 /* AppDelegate.m in Sources */,
+				D97FFD9D1CAB439F00407FD2 /* FirstViewController.m in Sources */,
+				D97FFD971CAB439F00407FD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97FFDA71CAB439F00407FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97FFDB01CAB439F00407FD2 /* Greek_TVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97FFDB21CAB439F00407FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97FFDBB1CAB439F00407FD2 /* Greek_TVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97FFDAD1CAB439F00407FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97FFD911CAB439F00407FD2 /* Greek TV */;
+			targetProxy = D97FFDAC1CAB439F00407FD2 /* PBXContainerItemProxy */;
+		};
+		D97FFDB81CAB439F00407FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97FFD911CAB439F00407FD2 /* Greek TV */;
+			targetProxy = D97FFDB71CAB439F00407FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D97FFDA11CAB439F00407FD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97FFDA21CAB439F00407FD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97FFDBD1CAB439F00407FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		D97FFDBE1CAB439F00407FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D97FFDC01CAB439F00407FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Greek TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Aggelos.Greek-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D97FFDC11CAB439F00407FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Greek TV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Aggelos.Greek-TV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D97FFDC31CAB439F00407FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Greek TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Aggelos.Greek-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greek TV.app/Greek TV";
+			};
+			name = Debug;
+		};
+		D97FFDC41CAB439F00407FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Greek TVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Aggelos.Greek-TVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greek TV.app/Greek TV";
+			};
+			name = Release;
+		};
+		D97FFDC61CAB439F00407FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Greek TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Aggelos.Greek-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Greek TV";
+			};
+			name = Debug;
+		};
+		D97FFDC71CAB439F00407FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Greek TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.Aggelos.Greek-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Greek TV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D97FFD8D1CAB439F00407FD2 /* Build configuration list for PBXProject "Greek TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97FFDBD1CAB439F00407FD2 /* Debug */,
+				D97FFDBE1CAB439F00407FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97FFDBF1CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97FFDC01CAB439F00407FD2 /* Debug */,
+				D97FFDC11CAB439F00407FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97FFDC21CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97FFDC31CAB439F00407FD2 /* Debug */,
+				D97FFDC41CAB439F00407FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97FFDC51CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97FFDC61CAB439F00407FD2 /* Debug */,
+				D97FFDC71CAB439F00407FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D97FFD8A1CAB439F00407FD2 /* Project object */;
+}
