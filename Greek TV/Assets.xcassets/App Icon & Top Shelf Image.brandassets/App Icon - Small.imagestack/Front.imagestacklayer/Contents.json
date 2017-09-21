@@ -2,5 +2,15 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "frame-size" : {
+      "width" : 100,
+      "height" : 62
+    },
+    "frame-center" : {
+      "x" : 200,
+      "y" : 80
+    }
   }
 }

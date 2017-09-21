@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Channels</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>EXTRA</string>
+			<key>streamAddress</key>
+			<string>http://213.16.167.186:1935/live/mpegts_256.stream/playlist.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BLUE SKY</string>
+			<key>streamAddress</key>
+			<string>http://88.198.238.44:1935/live/bluesky/playlist.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>MEGA CYPRUS</string>
+			<key>streamAddress</key>
+			<string>http://188.138.41.161/hlive/abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMC8yMDE2IDExOjE1OjI5IEFNJmhhc2hfdmFsdWU9M0hOYXVZN2JYdGFvZkdkRlZOdXpFQT09JnZhbGlkbWludXRlcz0yMA==</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>STAR LAMIAS</string>
+			<key>streamAddress</key>
+			<string>http://www.dailymotion.com/cdn/live/video/xqjey2.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SPORT24</string>
+			<key>streamAddress</key>
+			<string>http://www.dailymotion.com/cdn/live/video/x2p626q.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>KONTRA</string>
+			<key>streamAddress</key>
+			<string>http://flashcloud.mediacdn.com/live/kontratv/playlist.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ALPHA TV</string>
+			<key>streamAddress</key>
+			<string>http://alfakanali-lh.akamaihd.net/i/live_1@90368/master.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>EPSILON</string>
+			<key>streamAddress</key>
+			<string>http://mgrouphdlive4-f.akamaihd.net/i/live_1@324569/master.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ZOUGLA</string>
+			<key>streamAddress</key>
+			<string>http://zouglahd-f.akamaihd.net/i/zougla_1@56341/index_700_av-b.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>VOULI</string>
+			<key>streamAddress</key>
+			<string>http://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ART</string>
+			<key>streamAddress</key>
+			<string>http://tv1.streampulse.eu:1935/tilesport/movie1/live.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SBC</string>
+			<key>streamAddress</key>
+			<string>http://xsbcgrx.api.channel.livestream.com/3.0/playlist.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ERT 2</string>
+			<key>streamAddress</key>
+			<string>https://www.youtube.com/watch?v=Zjbwf5QE7aI</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ERT 3</string>
+			<key>streamAddress</key>
+			<string>https://www.youtube.com/watch?v=nxebm_-DkF0</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ERT 1</string>
+			<key>streamAddress</key>
+			<string>https://www.youtube.com/watch?v=wyBm8cFiUp0</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SKAI</string>
+			<key>streamAddress</key>
+			<string>https://www.youtube.com/watch?v=DltioDxt4l4</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>STAR</string>
+			<key>streamAddress</key>
+			<string>http://137.74.171.115:1935/galanos/a1951live2/playlist.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>MEGA</string>
+			<key>streamAddress</key>
+			<string>http://137.74.171.115:1935/galanos/a1951live1/playlist.m3u8</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>ANT1</string>
+			<key>streamAddress</key>
+			<string>http://antglantennatv-lh.akamaihd.net/i/live_1@421307/master.m3u8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

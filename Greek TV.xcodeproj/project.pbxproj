@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D923C5751CAC2748009F37E8 /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D923C54E1CAC2748009F37E8 /* HCYoutubeParser.m */; };
 		D97FFD971CAB439F00407FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFD961CAB439F00407FD2 /* main.m */; };
 		D97FFD9A1CAB439F00407FD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFD991CAB439F00407FD2 /* AppDelegate.m */; };
 		D97FFD9D1CAB439F00407FD2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFD9C1CAB439F00407FD2 /* FirstViewController.m */; };
@@ -15,6 +16,11 @@
 		D97FFDA51CAB439F00407FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97FFDA41CAB439F00407FD2 /* Assets.xcassets */; };
 		D97FFDB01CAB439F00407FD2 /* Greek_TVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFDAF1CAB439F00407FD2 /* Greek_TVTests.m */; };
 		D97FFDBB1CAB439F00407FD2 /* Greek_TVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFDBA1CAB439F00407FD2 /* Greek_TVUITests.m */; };
+		D97FFDC91CAB4A0D00407FD2 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97FFDC81CAB4A0D00407FD2 /* AVKit.framework */; };
+		D97FFDCB1CAB4C7C00407FD2 /* ChannelsLogos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97FFDCA1CAB4C7C00407FD2 /* ChannelsLogos.xcassets */; };
+		D97FFDCF1CAB4EF900407FD2 /* ChannelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFDCD1CAB4EF900407FD2 /* ChannelCollectionViewCell.m */; };
+		D97FFDD61CAB581D00407FD2 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FFDD51CAB581D00407FD2 /* PlayerViewController.m */; };
+		D97FFDD81CAB599E00407FD2 /* Channels.plist in Resources */ = {isa = PBXBuildFile; fileRef = D97FFDD71CAB599E00407FD2 /* Channels.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D923C54D1CAC2748009F37E8 /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCYoutubeParser.h; path = YoutubeParser/Classes/HCYoutubeParser.h; sourceTree = "<group>"; };
+		D923C54E1CAC2748009F37E8 /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HCYoutubeParser.m; path = YoutubeParser/Classes/HCYoutubeParser.m; sourceTree = "<group>"; };
 		D97FFD921CAB439F00407FD2 /* Greek TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greek TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97FFD961CAB439F00407FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D97FFD981CAB439F00407FD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +60,13 @@
 		D97FFDB61CAB439F00407FD2 /* Greek TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Greek TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97FFDBA1CAB439F00407FD2 /* Greek_TVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Greek_TVUITests.m; sourceTree = "<group>"; };
 		D97FFDBC1CAB439F00407FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97FFDC81CAB4A0D00407FD2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D97FFDCA1CAB4C7C00407FD2 /* ChannelsLogos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ChannelsLogos.xcassets; sourceTree = "<group>"; };
+		D97FFDCC1CAB4EF900407FD2 /* ChannelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelCollectionViewCell.h; sourceTree = "<group>"; };
+		D97FFDCD1CAB4EF900407FD2 /* ChannelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelCollectionViewCell.m; sourceTree = "<group>"; };
+		D97FFDD41CAB581D00407FD2 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		D97FFDD51CAB581D00407FD2 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		D97FFDD71CAB599E00407FD2 /* Channels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Channels.plist; path = ../Channels.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97FFDC91CAB4A0D00407FD2 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +95,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D923C5451CAC2748009F37E8 /* HCYoutubeParser */ = {
+			isa = PBXGroup;
+			children = (
+				D923C54D1CAC2748009F37E8 /* HCYoutubeParser.h */,
+				D923C54E1CAC2748009F37E8 /* HCYoutubeParser.m */,
+			);
+			name = HCYoutubeParser;
+			path = "HCYoutubeParser-master";
+			sourceTree = "<group>";
+		};
 		D97FFD891CAB439F00407FD2 = {
 			isa = PBXGroup;
 			children = (
+				D97FFDC81CAB4A0D00407FD2 /* AVKit.framework */,
 				D97FFD941CAB439F00407FD2 /* Greek TV */,
 				D97FFDAE1CAB439F00407FD2 /* Greek TVTests */,
 				D97FFDB91CAB439F00407FD2 /* Greek TVUITests */,
@@ -103,9 +130,15 @@
 			isa = PBXGroup;
 			children = (
 				D97FFD981CAB439F00407FD2 /* AppDelegate.h */,
+				D97FFDCC1CAB4EF900407FD2 /* ChannelCollectionViewCell.h */,
+				D97FFDCD1CAB4EF900407FD2 /* ChannelCollectionViewCell.m */,
 				D97FFD991CAB439F00407FD2 /* AppDelegate.m */,
+				D97FFDD71CAB599E00407FD2 /* Channels.plist */,
 				D97FFD9B1CAB439F00407FD2 /* FirstViewController.h */,
 				D97FFD9C1CAB439F00407FD2 /* FirstViewController.m */,
+				D97FFDCA1CAB4C7C00407FD2 /* ChannelsLogos.xcassets */,
+				D97FFDD41CAB581D00407FD2 /* PlayerViewController.h */,
+				D97FFDD51CAB581D00407FD2 /* PlayerViewController.m */,
 				D97FFD9E1CAB439F00407FD2 /* SecondViewController.h */,
 				D97FFD9F1CAB439F00407FD2 /* SecondViewController.m */,
 				D97FFDA11CAB439F00407FD2 /* Main.storyboard */,
@@ -119,6 +152,7 @@
 		D97FFD951CAB439F00407FD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D923C5451CAC2748009F37E8 /* HCYoutubeParser */,
 				D97FFD961CAB439F00407FD2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -204,7 +238,7 @@
 		D97FFD8A1CAB439F00407FD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Aggelos Papageorgiou";
 				TargetAttributes = {
 					D97FFD911CAB439F00407FD2 = {
@@ -249,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97FFDA51CAB439F00407FD2 /* Assets.xcassets in Resources */,
+				D97FFDCB1CAB4C7C00407FD2 /* ChannelsLogos.xcassets in Resources */,
+				D97FFDD81CAB599E00407FD2 /* Channels.plist in Resources */,
 				D97FFDA31CAB439F00407FD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97FFDD61CAB581D00407FD2 /* PlayerViewController.m in Sources */,
 				D97FFDA01CAB439F00407FD2 /* SecondViewController.m in Sources */,
 				D97FFD9A1CAB439F00407FD2 /* AppDelegate.m in Sources */,
+				D923C5751CAC2748009F37E8 /* HCYoutubeParser.m in Sources */,
+				D97FFDCF1CAB4EF900407FD2 /* ChannelCollectionViewCell.m in Sources */,
 				D97FFD9D1CAB439F00407FD2 /* FirstViewController.m in Sources */,
 				D97FFD971CAB439F00407FD2 /* main.m in Sources */,
 			);
@@ -338,8 +377,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -382,8 +423,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -495,6 +538,7 @@
 				D97FFDC11CAB439F00407FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D97FFDC21CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TVTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +547,7 @@
 				D97FFDC41CAB439F00407FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D97FFDC51CAB439F00407FD2 /* Build configuration list for PBXNativeTarget "Greek TVUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +556,7 @@
 				D97FFDC71CAB439F00407FD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
